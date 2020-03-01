@@ -36,7 +36,7 @@ const IndexPage = () => {
   const customStyles = {
     content: {
       width: "100%",
-      maxWidth: "760px",
+      maxWidth: "780px",
       top: "50%",
       left: "50%",
       right: "auto",
