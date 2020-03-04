@@ -238,6 +238,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  color: #12567b;
 }
 h2 {
   margin-left: 0;
@@ -254,6 +255,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  color: #12567b;
 }
 h3 {
   margin-left: 0;
@@ -782,7 +784,7 @@ svg .province:focus path {
 } */
 
 .lab-practice {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .lab-practice:after {
