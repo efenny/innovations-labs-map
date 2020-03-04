@@ -772,7 +772,7 @@ svg .province:focus path {
 }
 
 /* Winnepeg */
-/* .map-5::after {
+.map-5::after {
   content: "";
   width: 7px;
   height: 7px;
@@ -781,7 +781,7 @@ svg .province:focus path {
   position: absolute;
   bottom: 17.75%;
   left: 41.75%;
-} */
+}
 
 .lab-practice {
   margin-right: 5px;
