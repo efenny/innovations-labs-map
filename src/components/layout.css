@@ -621,17 +621,18 @@ pre tt:after {
 svg .province,
 svg .province path {
   transition: all 0.2s cubic-bezier(0.85, 0.24, 0.53, 0.95);
-  fill: rgb(104, 104, 104);
+  fill: #477791;
+  cursor: pointer;
 }
 
 svg .province:hover,
 svg .province:focus,
 svg .province:hover path,
 svg .province:focus path {
-  fill: rgb(49, 49, 49);
+  fill: #12567b;
 }
 :root {
-  --map-marker: red;
+  --map-marker: #ce1c25;
 }
 .map {
   position: relative;
@@ -766,4 +767,28 @@ svg .province:focus path {
   position: absolute;
   bottom: 14.75%;
   right: 16.75%;
+}
+
+/* Winnepeg */
+/* .map-5::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: var(--map-marker);
+  border-radius: 100%;
+  position: absolute;
+  bottom: 17.75%;
+  left: 41.75%;
+} */
+
+.lab-practice {
+  margin-right: 10px;
+}
+
+.lab-practice:after {
+  content: ",";
+}
+
+.lab-practice:last-child:after {
+  display: none;
 }

@@ -66,7 +66,7 @@ const IndexPage = () => {
             width: "100%",
             paddingBottom: "1rem",
             marginBottom: "1rem",
-            borderBottom: "1px solid rgb(161, 161, 161)",
+            borderBottom: "1px solid rgba(18, 86, 123, 0.26)",
           }}
         >
           <button
@@ -84,16 +84,13 @@ const IndexPage = () => {
               textAlign: "left",
             }}
           >
-            <h4
-              className="lab-name"
-              style={{ margin: "0", color: "rgb(49, 49, 49)" }}
-            >
+            <h4 className="lab-name" style={{ margin: "0", color: "#12567b" }}>
               {lab["Name"]}
             </h4>
           </button>
           <h5
             className="lab-location"
-            style={{ opacity: "0.75", margin: "0", color: "rgb(49, 49, 49)" }}
+            style={{ opacity: "0.5", margin: "0", color: "#12567b" }}
           >
             {lab["Location"]}
           </h5>
