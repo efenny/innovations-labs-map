@@ -139,6 +139,7 @@ const IndexPage = () => {
             alignSelf: "flex-end",
             fontWeight: "700",
             marginBottom: "0.5rem",
+            opacity: "0.75",
           }}
         >
           close
